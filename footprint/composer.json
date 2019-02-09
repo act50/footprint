@@ -1,0 +1,26 @@
+{
+    "name": "act50/footprint",
+    "description": "This is a test.",
+    "minimum-stability":"dev",
+    "type": "Library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chaijingchun",
+            "email": "chensson@qq.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Cjc\\FootPrint\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cjc\\FootPrint\\Tests\\": "tests/"
+        }
+    }
+
+}
